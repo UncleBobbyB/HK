@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.mediapipe.apps.hands"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:5:3-45
+8        android:minSdkVersion="21"
+8-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:5:3-45
+9        android:targetSdkVersion="30" />
+9-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:5:13-42
+10
+11    <!-- For loading images from gallery -->
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:8:3-78
+12-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:8:20-75
+13    <!-- For using the camera -->
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:10:3-63
+14-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:10:20-60
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:11:3-58
+16-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:11:17-55
+17
+18    <application
+18-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:13:3-28:17
+19        android:allowBackup="true"
+19-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:14:7-33
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] /Users/yingjiejiang/.gradle/caches/transforms-2/files-2.1/2245221c36e2911ed0c78617191e7497/core-1.5.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:15:7-41
+23        android:label="MediaPipe Hands"
+23-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:16:7-38
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:17:7-52
+25        android:supportsRtl="true"
+25-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:18:7-33
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:19:7-38
+28        <activity
+28-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:20:5-27:16
+29            android:name="com.google.mediapipe.examples.hands.MainActivity"
+29-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:20:15-43
+30            android:screenOrientation="portrait" >
+30-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:21:15-51
+31            <intent-filter>
+31-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:22:7-26:23
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:23:9-61
+32-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:23:17-58
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:25:9-69
+34-->/Users/yingjiejiang/AndroidStudioProjects/Grad/hands/src/main/AndroidManifest.xml:25:19-66
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>

@@ -1,0 +1,4 @@
+
+YFromImageCalculatorIMAGE:image"IMAGE_CPU:raw_image_frame"SOURCE_ON_GPU:is_gpu_image
+gImageTransformationCalculatorIMAGE:raw_image_frameFLIP_VERTICALLY:is_gpu_image"IMAGE:image_frame
+„HandLandmarkTrackingCpuIMAGE:image_frame"LANDMARKS:multi_hand_landmarks"HANDEDNESS:multi_handedness"PALM_DETECTIONS:palm_detections"#HAND_ROIS_FROM_LANDMARKS:hand_rects">HAND_ROIS_FROM_PALM_DETECTIONS:hand_rects_from_palm_detections*NUM_HANDS:num_handsRIMAGE:imagezIMAGE:imagezLANDMARKS:multi_hand_landmarkszHANDEDNESS:multi_handednesszPALM_DETECTIONS:palm_detectionsz#HAND_ROIS_FROM_LANDMARKS:hand_rectsz>HAND_ROIS_FROM_PALM_DETECTIONS:hand_rects_from_palm_detections‚NUM_HANDS:num_hands¢HandLandmarkTrackingCpuImage

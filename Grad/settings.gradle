@@ -1,0 +1,5 @@
+include ':hands'
+include ':facemesh'
+include ':app'
+rootProject.name = "Grad"
+include ':java'
